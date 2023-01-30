@@ -1,0 +1,38 @@
+Part 1
+
+Declare two variable numbers.
+Read each number from the user.
+Multiply the two numbers and store the result in a new variable.
+Print the result.
+
+Part 2
+
+Declare number variable.
+Read number variable from user.
+Compare number variable to values 5 and 6.
+If number variable not 5 or 6, print “Not 5 or 6”.
+
+Part 3
+
+Declare variable for number,
+Read number from user.
+Compare number variable to range of 0 to 10. If in range, print “Blue.”
+Compare number variable to range of 10 and 20. If in range, print “Green”.
+Else, print “Not correct color option”.
+
+
+Part 4
+
+Set counter equal to 1.
+Print 5 times counter.
+Increase counter by 1.
+Repeat steps 2 and 3 until counter is greater than 100.
+
+Part 5
+
+Declare counter variable and set equal to 2.
+Declare stopping number variable. 
+Read stopping number variable from user.
+Print counter variable.
+Increase counter variable by 2.
+Repeat steps 5 and 6 until counter variable is greater than or equal to stopping number variable.
