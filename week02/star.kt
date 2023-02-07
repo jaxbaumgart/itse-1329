@@ -1,9 +1,9 @@
 fun main() {
-    println("   *");
-    println("  ***");
-    println(" *****");
-    println("*******");
-    println(" *****");
-    println("  ***");
-    print("   *");
+    println("   *")
+    println("  ***")
+    println(" *****")
+    println("*******")
+    println(" *****")
+    println("  ***")
+    print("   *")
 }
