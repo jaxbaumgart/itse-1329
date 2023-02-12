@@ -8,8 +8,8 @@ fun main() {
     print("Enter compound frequency >> ")
     val n = readln().toDouble()
     print("Enter number of years >> ")
-    val t = readln().toDouble()
-    var A = p * (1 + r / n).pow(n * t)
+    val t = readln().toInt()
+    var A = p * (1 + r / n).pow(n * t.toDouble())
     A = (A * 100.0).roundToInt() / 100.0
     print("The amount of money in the account after $t years is $$A.")
 }
