@@ -26,13 +26,13 @@ fun main() {
     println("Corner Cafe")
     println("The Chef's Kitchen")
     if (rest1 == 1) {
-        print("Joe's Gourmet Burgers")
+        println("Joe's Gourmet Burgers")
     }
     if (rest2 == 1) {
-        print("Main Street Pizza Company")
+        println("Main Street Pizza Company")
     }
     if (rest3 == 1) {
-        print("Mama's Fine Italian")
+        println("Mama's Fine Italian")
     }
 
 }
