@@ -9,5 +9,5 @@ fun main() {
 }
 
 fun celsius(fahrenheit: Double): Double {
-    return 5.0/9.0 * (fahrenheit - 32.0)
+    return 5.0 / 9.0 * (fahrenheit - 32.0)
 }
