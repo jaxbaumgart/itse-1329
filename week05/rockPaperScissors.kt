@@ -25,7 +25,11 @@ fun main() {
         round++
         }
     round--
-    println("The game is over after $round rounds. You won: $userWins. The CPU won: $cpuWins. Ties: $ties. Goodbye!")
+    if (round < 2) {
+        println("The game is over after $round round. You won: $userWins. The CPU won: $cpuWins. Ties: $ties. Goodbye!")
+    } else {
+        println("The game is over after $round rounds. You won: $userWins. The CPU won: $cpuWins. Ties: $ties. Goodbye!")
+    }
 }
 
 fun randomNumber(): Int {
@@ -43,19 +47,19 @@ fun userTurn(): Int {
 }
 
 fun startGame() {
-    println("These are the rules")
-    println("Rock is 1")
-    println("Paper is 2")
-    println("Scissors is 3")
+    println("These are the rules:")
+    println("Rock is 1.")
+    println("Paper is 2.")
+    println("Scissors is 3.")
 }
 
 fun displayCPU(cpu: Int) {
     if (cpu == 1) {
-        println("CPU chose rock")
+        println("CPU chose rock.")
     } else if (cpu == 2) {
-        println("CPU chose paper")
+        println("CPU chose paper.")
     } else {
-        println("CPU chose scissors")
+        println("CPU chose scissors.")
     }
 }
 
