@@ -1,9 +1,9 @@
 package week03
 
 fun main() {
+    var total = 10.0
     print("Enter number of checks written this month >> ")
     val num = readln().toInt()
-    var total = 10.0
     if (num < 20) {
         total += num * 0.1
         print("Your total is $$total.")
